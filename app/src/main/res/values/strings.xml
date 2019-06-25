@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Wear OS Google Fit Sample</string>
-    <string name="server_client_id">858588898862-k9af2l1o31lbf5q6o5ur575t1j7hj3b6.apps.googleusercontent.com</string>
+    <string name="server_client_id">831933766015-vns5n0fljfctdk570ea4mpjdf7kqttob.apps.googleusercontent.com</string>
         <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
@@ -8,9 +8,7 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="sign_out">Sign out</string>
 
-    <string name="enable_fit">Enable Fit</string>
-    <string name="disable_fit">Disable Fit</string>
-
     <string name="read_fit">Read Fit</string>
     <string name="send_fit">Send Fit</string>
+    <string name="location_rationale">App need location to read activity sessions</string>
 </resources>

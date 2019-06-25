@@ -5,15 +5,14 @@
                                      android:layout_width="match_parent"
                                      android:layout_height="match_parent"
                                      android:background="@color/dark_grey"
-                                     android:padding="@dimen/box_inset_layout_padding"
                                      tools:context=".MainActivity"
                                      tools:deviceIds="wear">
 
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="@dimen/inner_frame_layout_padding"
             app:boxedEdges="all"
+            android:gravity="center"
             tools:ignore="MissingPrefix">
 
         <com.google.android.gms.common.SignInButton
@@ -30,5 +29,22 @@
                 android:text="@string/sign_out"
                 android:visibility="gone"/>
 
+        <Button
+                android:id="@+id/send_fit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_fit"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/sign_out_button"
+                android:visibility="gone"/>
+
+        <Button
+                android:id="@+id/read_fit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/read_fit"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/send_fit"
+                android:visibility="gone"/>
     </RelativeLayout>
 </androidx.wear.widget.BoxInsetLayout>
